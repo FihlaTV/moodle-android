@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <include layout="@layout/toolbar"/>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/sun11_5_1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="1.问题域部分的定义和基本概念"
+            android:textSize="20dp"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+        <TextView
+            android:id="@+id/sun11_5_2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="2.需要问题域部分设计的原因"
+            android:textSize="20dp"
+
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+        <TextView
+            android:id="@+id/sun11_5_3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="3.实现条件对问题域部分的影响"
+            android:textSize="20dp"
+
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+        <TextView
+            android:id="@+id/sun11_5_4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="4.总体概括"
+            android:textSize="20dp"
+
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+        <TextView
+            android:id="@+id/sun11_5_5"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="5.为复用设计与编程的类而增加结构"
+            android:textSize="20dp"
+
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+        <TextView
+            android:id="@+id/sun11_5_6"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="6.增加一般类以建立共同协议"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+             />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
+
+        <TextView
+            android:id="@+id/sun11_5_7"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="7.整体概述"
+            android:textSize="20dp"
+
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+        <TextView
+            android:id="@+id/sun11_5_8"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="8.对继承的调整"
+            android:textSize="20dp"
+
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+        <TextView
+            android:id="@+id/sun11_5_9"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="9.取消继承"
+            android:textSize="20dp"
+
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+        <TextView
+            android:id="@+id/sun11_5_10"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="10.对多态性的调整"
+            android:textSize="20dp"
+
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+        <TextView
+            android:id="@+id/sun11_5_11"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="11.提高性能"
+            android:textSize="20dp"
+
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+        <TextView
+            android:id="@+id/sun11_5_12"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="12.为实现对象永久存储所做的修饰"
+            android:textSize="20dp"
+
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+        <TextView
+            android:id="@+id/sun11_5_13"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="13.为编程方便增加底层细节"
+            android:textSize="20dp"
+
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+    </LinearLayout>
+
+</ScrollView>
+</LinearLayout>

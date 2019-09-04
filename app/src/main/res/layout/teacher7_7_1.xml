@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <include layout="@layout/toolbar"/>
+    <TextView
+            android:id="@+id/sun7_7_1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="1.黑盒测试简介"
+            android:textSize="20dp"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+    <TextView
+            android:id="@+id/sun7_7_2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="2.事务流测试技术"
+            android:textSize="20dp"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+    <TextView
+            android:id="@+id/sun7_7_3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="3.等价类划分技术 "
+            android:textSize="20dp"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+    <TextView
+            android:id="@+id/sun7_7_4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="4.边界值分析技术 "
+            android:textSize="20dp"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+    <TextView
+            android:id="@+id/sun7_7_5"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="5.因果图技术"
+            android:textSize="20dp"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+
+
+</LinearLayout>

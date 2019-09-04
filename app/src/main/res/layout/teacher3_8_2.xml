@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/toolbar"/>
+    <TextView
+        android:id="@+id/tan3_8_1"
+        android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="1.什么是需求分析、对软件需求的理解"
+        android:textSize="20dp"
+        android:textColor="@android:color/background_dark"
+        android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+    <TextView
+        android:id="@+id/tan3_8_2"
+        android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="2.改进软件需求的质量，需求分析任务"
+        android:textSize="20dp"
+
+        android:textColor="@android:color/background_dark"
+        android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+</LinearLayout>

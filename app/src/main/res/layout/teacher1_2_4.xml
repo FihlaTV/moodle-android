@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <include layout="@layout/toolbar"/>
+    <TextView
+            android:id="@+id/qi1_2_1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="1.软件工程的形成与发展"
+            android:textSize="20dp"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+    <TextView
+            android:id="@+id/qi1_2_2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="2.影响软件工程发展的关键要素"
+            android:textSize="20dp"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+    />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+    <TextView
+            android:id="@+id/qi1_2_3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="3.软件工程定义、知识体"
+            android:textSize="20dp"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+    />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+    <TextView
+            android:id="@+id/qi1_2_4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="4.软件工程五要素"
+            android:textSize="20dp"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+    />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+    <TextView
+            android:id="@+id/qi1_2_5"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="5.软件工程的目标和原则"
+            android:textSize="20dp"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+    />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+
+
+</LinearLayout>

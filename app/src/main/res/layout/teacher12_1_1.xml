@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+>
+    <include layout="@layout/toolbar"/>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/sun12_1_1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="1.主要内容"
+            android:textSize="20dp"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+        <TextView
+            android:id="@+id/sun12_1_2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="2.程序设计范型"
+            android:textSize="20dp"
+
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+        <TextView
+            android:id="@+id/sun12_1_3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="3.基本特性"
+            android:textSize="20dp"
+
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+        <TextView
+            android:id="@+id/sun12_1_4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="4.发展历史及语言谱系 "
+            android:textSize="20dp"
+
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+        <TextView
+            android:id="@+id/sun12_1_5"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="5.类别"
+            android:textSize="20dp"
+
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+        <TextView
+            android:id="@+id/sun12_1_6"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="6.语言+类库+编程环境"
+            android:textSize="20dp"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+             />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
+
+        <TextView
+            android:id="@+id/sun12_1_7"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="7.一般原则"
+            android:textSize="20dp"
+
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+        <TextView
+            android:id="@+id/sun12_1_8"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="8.编程语言的评价标准"
+            android:textSize="20dp"
+
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+        <TextView
+            android:id="@+id/sun12_1_9"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="9.C++语言简介"
+            android:textSize="20dp"
+
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+        <TextView
+            android:id="@+id/sun12_1_10"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="10.Smalltalk、Eiffel（未讲解）"
+            android:textSize="20dp"
+
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+        <TextView
+            android:id="@+id/sun12_1_11"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="11.Java"
+            android:textSize="20dp"
+
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+        <TextView
+            android:id="@+id/sun12_1_12"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="12.过程语言以C为例"
+            android:textSize="20dp"
+
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+        <TextView
+            android:id="@+id/sun12_1_13"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="13.总结建议安排"
+            android:textSize="20dp"
+
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+    </LinearLayout>
+
+</ScrollView>
+</LinearLayout>

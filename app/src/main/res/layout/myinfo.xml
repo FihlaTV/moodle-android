@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/touxiang"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/my"/>
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="张宁"
+                android:textSize="35sp"
+                android:textColor="@drawable/black"
+                android:layout_marginBottom="7dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"/>
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@drawable/ltgray">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/bt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="#FFFFFF"
+            android:paddingTop="12dp"
+            android:text="学号:"
+            android:textSize="20sp"
+            android:gravity="left"
+            android:textColor="@drawable/black"/>
+
+        <TextView
+            android:id="@+id/xue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1801210729"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@drawable/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@drawable/ltgray">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/bt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:gravity="left"
+            android:paddingTop="12dp"
+            android:text="专业方向:"
+            android:textSize="20sp"
+            android:textColor="@drawable/black"/>
+
+        <TextView
+            android:id="@+id/major"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="计算机技术"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@drawable/black"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@drawable/ltgray">
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/resetPassword"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/red"
+            android:gravity="center"
+            android:text="修改密码"
+            android:textSize="20sp"
+            android:textColor="@drawable/white"/>
+
+
+
+        <Button
+            android:id="@+id/godown"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/red"
+            android:gravity="center"
+            android:layout_marginLeft="18dp"
+            android:text="注销账号"
+            android:textSize="20sp"
+            android:textColor="@drawable/white"/>
+    </LinearLayout>
+
+</LinearLayout>

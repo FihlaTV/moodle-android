@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+>
+    <include layout="@layout/toolbar"/>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+>
+<LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/sun1_4_1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="1.瀑布模型"
+            android:textSize="20dp"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+    <TextView
+            android:id="@+id/sun1_4_2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="2.关于瀑布模型的几点说明"
+            android:textSize="20dp"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+    />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+    <TextView
+            android:id="@+id/sun1_4_3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="3.瀑布模型存在的不足"
+            android:textSize="20dp"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+    />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+    <TextView
+            android:id="@+id/sun1_4_4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="4.瀑布模型适应的情况"
+            android:textSize="20dp"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+    />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+    <TextView
+            android:id="@+id/sun1_4_5"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="5.快速原型模型"
+            android:textSize="20dp"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+    />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+    <TextView
+            android:id="@+id/sun1_4_6"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="6.增量模型"
+            android:textSize="20dp"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+    />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+    <TextView
+            android:id="@+id/sun1_4_7"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="7.关于增量模型的几点说明"
+            android:textSize="20dp"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+    />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+    <TextView
+            android:id="@+id/sun1_4_8"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="8.增量模型的缺点"
+            android:textSize="20dp"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+    />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+    <TextView
+            android:id="@+id/sun1_4_9"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="9.增量模型的适用情况"
+            android:textSize="20dp"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+    />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+    <TextView
+            android:id="@+id/sun1_4_10"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="10.螺旋模型"
+            android:textSize="20dp"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+    />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+    <TextView
+            android:id="@+id/sun1_4_11"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="11.关于螺旋模型的几点说明"
+            android:textSize="20dp"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+    />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+    <TextView
+            android:id="@+id/sun1_4_12"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="12.喷泉模型"
+            android:textSize="20dp"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+    />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+</LinearLayout>
+
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/toolbar"/>
+    <TextView
+        android:id="@+id/sun9_2_1"
+        android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="1.面向对象概念"
+        android:textSize="20dp"
+        android:textColor="@android:color/background_dark"
+        android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+    <TextView
+        android:id="@+id/sun9_2_2"
+        android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="2.通过实例说明对象的含义"
+        android:textSize="20dp"
+        android:textColor="@android:color/background_dark"
+        android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+    <TextView
+        android:id="@+id/sun9_2_3"
+        android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="3.面向对象方法的主要特点"
+        android:textSize="20dp"
+        android:textColor="@android:color/background_dark"
+        android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+</LinearLayout>

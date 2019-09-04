@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <include layout="@layout/toolbar"/>
+    <TextView
+            android:id="@+id/shuzizidiandeneirong"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="1.数据字典的内容"
+            android:textSize="20dp"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+    <TextView
+            android:id="@+id/dingyishujvdefangfa"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="2.定义数据的方法"
+            android:textSize="20dp"
+
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+    <TextView
+            android:id="@+id/shujvzidiandeyongtu"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="3.数据字典的用途"
+            android:textSize="20dp"
+
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+    <TextView
+            android:id="@+id/shuzizidiandeshixian"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="4.数字字典的实现"
+            android:textSize="20dp"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+</LinearLayout>

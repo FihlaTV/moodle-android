@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">moodle</string>
+    <string name="main_bt_start">开始</string>
+    <string name="main_bt_stop">暂停</string>
+    <string name="main_bt_continue">重新播放</string>
+    <string name="start_time">00:00:00</string>
+    <string name="end_time">00:00:00</string>
+
+    <string name="menu_video">视频资料</string>
+    <string name="menu_my">个人信息</string>
+    <string name="menu_back">返回</string>
+    <string name="buffering">正在加载</string>
+</resources>

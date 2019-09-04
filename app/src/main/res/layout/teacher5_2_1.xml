@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+>
+    <include layout="@layout/toolbar"/>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/sun5_2_1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="1.模块和模块化的概念、原因"
+                android:textSize="20dp"
+                android:textColor="@android:color/background_dark"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#BEBEBE"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+        />
+
+        <TextView
+                android:id="@+id/sun5_2_2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="2.模块化的评价"
+                android:textSize="20dp"
+                android:textColor="@android:color/background_dark"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#BEBEBE"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+        />
+
+        <TextView
+                android:id="@+id/sun5_2_3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="3.耦合——定义、依赖因素"
+                android:textSize="20dp"
+                android:textColor="@android:color/background_dark"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#BEBEBE"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+        />
+
+        <TextView
+                android:id="@+id/sun5_2_4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="4.软件工程的学习在于理解"
+                android:textSize="20dp"
+                android:textColor="@android:color/background_dark"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#BEBEBE"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+        />
+
+        <TextView
+                android:id="@+id/sun5_2_5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="5.耦合——类型、模型、原则"
+                android:textSize="20dp"
+                android:textColor="@android:color/background_dark"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#BEBEBE"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+        />
+
+        <TextView
+                android:id="@+id/sun5_2_6"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="6.内聚——定义、类型、模型"
+                android:textSize="20dp"
+                android:textColor="@android:color/background_dark"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="20dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#BEBEBE"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+        />
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

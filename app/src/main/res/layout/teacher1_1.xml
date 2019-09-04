@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/toolbar"/>
+    <TextView
+        android:id="@+id/chen1_1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="陈越老师的教学视频"
+        android:textSize="20dp"
+        android:textColor="@android:color/background_dark"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+
+    <TextView
+        android:id="@+id/mei1_1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="梅宏老师的教学视频"
+        android:textSize="20dp"
+        android:textColor="@android:color/background_dark"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BEBEBE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+    />
+</LinearLayout>
