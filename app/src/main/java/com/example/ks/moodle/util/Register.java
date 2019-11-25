@@ -107,7 +107,7 @@ public class Register extends TB {
         @Override
         public void run() {
             // TODO Auto-generated method stub
-           HttpUtil.getInstance().requestGet(stringHashMap,"http://10.0.2.2:8080/student/register?");
+           HttpUtil.getInstance().requestGet(stringHashMap,"http://39.107.98.156:8080/student/register?");
         }
     };
 

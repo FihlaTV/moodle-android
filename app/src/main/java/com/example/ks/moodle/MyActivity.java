@@ -146,13 +146,12 @@ this,"请输入账号和密码",Toast.LENGTH_SHORT this, "moodle1.db", null, 2
         public void run() {
             // TODO Auto-generated method stub
             requestGet(stringHashMap);
-            //HttpUtil.getInstance().requestGet(stringHashMap,"http://10.0.2.2:8080/student/login?");
         }
     };
 
     private void requestGet(HashMap<String, String> paramsMap) {
         try {
-            String baseUrl = "http://10.0.2.2:8080/student/login?";
+            String baseUrl = "http://39.107.98.156:8080/student/login?";
             StringBuilder tempParams = new StringBuilder();
             int pos = 0;
             for (String key : paramsMap.keySet()) {

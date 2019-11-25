@@ -115,7 +115,7 @@ public class ResetPass_Dialog extends Activity implements View.OnClickListener {
 
     private void requestGet(HashMap<String, String> paramsMap) {
         try {
-            String baseUrl = "http://10.0.2.2:8080/student/modifyPassword?";
+            String baseUrl = "http://39.107.98.156:8080/student/modifyPassword?";
             StringBuilder tempParams = new StringBuilder();
             int pos = 0;
             for (String key : paramsMap.keySet()) {

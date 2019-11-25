@@ -134,7 +134,7 @@ public class VideoActivity3 extends Activity implements SeekBar.OnSeekBarChangeL
         @Override
         public void run() {
          // TODO Auto-generated method stub
-         HttpUtil.getInstance().requestGet(stringHashMap, "http://10.0.2.2:8080/student/event?");
+         HttpUtil.getInstance().requestGet(stringHashMap, "http://39.107.98.156:8080/student/event?");
         }
         };
 
@@ -237,7 +237,7 @@ public class VideoActivity3 extends Activity implements SeekBar.OnSeekBarChangeL
         @Override
         public void run() {
             // TODO Auto-generated method stub
-            HttpUtil.getInstance().requestGet(stringHashMap, "http://10.0.2.2:8080/student/event?");
+            HttpUtil.getInstance().requestGet(stringHashMap, "http://39.107.98.156:8080/student/event?");
 
         }
     };
