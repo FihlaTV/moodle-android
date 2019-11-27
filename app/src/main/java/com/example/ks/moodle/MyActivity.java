@@ -151,7 +151,7 @@ this,"请输入账号和密码",Toast.LENGTH_SHORT this, "moodle1.db", null, 2
 
     private void requestGet(HashMap<String, String> paramsMap) {
         try {
-            String baseUrl = "http://39.107.98.156:8080/student/login?";
+            String baseUrl = "https://www.moodlemooc.cn/moodle-backed/student/login?";
             StringBuilder tempParams = new StringBuilder();
             int pos = 0;
             for (String key : paramsMap.keySet()) {
